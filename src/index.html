@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <title>Cineclub JS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/popUp.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/Ajax.js" defer></script>
+    <script src="js/scenario.js" defer></script>
+  </head>
+  <body> 
+    <h2 id="oui">Cineclub Javascript</h2>
+    <section id="enregistrements">
+      <fieldset id="ajout-membre">
+        <legend>Ajouter un membre</legend>
+        <input id="nom-nouveau-membre" type="text" placeholder="nom">
+        <input id="ajouter-membre-button" type="button" value="ajouter">
+      </fieldset>
+      <fieldset id="ajout-film">
+        <legend>Ajouter un film</legend>
+        <input id="titre-nouveau-film" type="text" placeholder="titre">
+        <input id="ajouter-film-button" type="button" value="ajouter">
+      </fieldset>
+    </section>
+    <section id="membre">
+      <fieldset> 
+        <legend>Login</legend>
+        <select id="choix-membre" name="choix-membre">
+
+        </select>
+      </fieldset>
+    </section>
+    <section id="listes">
+      <fieldset>
+        <legend>Membres</legend>
+        <table>
+          <thead> 
+            <tr>
+              <th>Supprimer ?</th>
+              <th>Nom</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody id="table-membres">
+
+          </tbody>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Films</legend>
+        <table>
+          <thead>
+            <tr>
+              <th>Titre</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody id="table-films">
+
+          </tbody>
+        </table>
+      </fieldset>
+    </section>
+  <div id="notes">
+
+  </div>
+  </body>
+</html>

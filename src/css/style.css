@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 75%;
+  margin: 1em auto 0 auto;
+  padding: 0px 20px 20px 20px;
+  border: solid 2px grey;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 2em;
+  color: white;
+  background-color: grey;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 4px 4px 4px black;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2em;
+  width: 100%;
+}
+
+fieldset {
+  flex-grow: 1;
+}
+
+legend {
+  font-size: 1.5em;
+}
+
+li:hover {
+  background-color: lightgrey;
+}
+
+input, option {
+  padding: 5px;
+  font-size: 1.2em;
+  height: 2em;
+}
+
+#membre select {
+  width: 250px;
+}
+
+select {
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+table td:nth-child(1) {
+  width: 80%;
+}
+table td:nth-child(2) {
+  text-align: center;
+  width: 20%;
+}
+table tr {
+  height: 2.5em;
+}
+table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+img{
+  width: 10%;
+}
